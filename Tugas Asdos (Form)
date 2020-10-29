@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Zak Travel</title>
+    <style>
+        label {
+            color: white;
+        }
+        h1 {
+            color: white;
+        }
+   
+        
+    </style>
+</head>
+<body background="95579b27d455b77ef335b01316541dba.jpg" style="margin-right:100px;margin-left: 50px;text-align: justify-all;">
+    <h1>Isi Data Diri Anda</h1>
+    <form action="Terimakasih.html">
+                    <label for="Nama Lengkap">Nama Lengkap</label><br><br>
+                <input id="Nama Lengkap" type="text" placeholder="Nama Lengkap"/><br><br>         
+            <label for="TTL">Tempat Tanggal Lahir</label><br><br>
+        <input id="TTL" type="date" value="yyyy-mm-dd"/><br><br>
+            
+        <label for="Jenis Kelamin">Jenis Kelamin</label><br>
+            
+        <input type="radio" name="Laki" id="laki" value="jk">
+        <label for="Jenis Kelamin">Laki-laki</label>
+            
+            <input type="radio" name="Perempuan" id="Perempuan" value="jk">
+            <label for="Jenis Kelamin">Perempuan</label><br><br>
+            
+                <label for="alamat">Alamat</label><br><br>
+                    <textarea name="alamat" id="alamat" cols="25" rows="5"></textarea><br><br>
+                        
+                    <label for="No.Hp">Nomor Handphone</label><br><br>
+                            <input type="number" name="Nomor Handphone" id="No.Hp"><br><br>
+                                
+                            <label for="email">Email</label><br><br>
+                                    <input type="email" name="email" id="email"><br>
+        <br>
+        <label for="TTL">Pilih Paket</label>
+        <br>
+            <input type="checkbox" id="Paket1" name="Pilihan 1" value="Paket1">
+            <label for="Paket1">Paket 1</label><br>
+        
+            <input type="checkbox" id="Paket2" name="Pilihan 2" value="Paket2">
+            <label for="Paket2">Paket 2</label><br>
+        
+            <input type="checkbox" id="Paket3" name="Pilihan 3" value="Paket3">
+            <label for="Paket3">Paket 3</label><br>
+        
+            <input type="checkbox" id="Paket4" name="Pilihan 4" value="Paket4">
+            <label for="Paket4">Paket 4</label><br><br>
+    
+        <label>Kirim bukti transfer disini</label>
+        <input type="file" name="file" id="transfer">
+        
+        <br><br>
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
